@@ -176,7 +176,7 @@ local function loadScriptFromURL(url)
     success, result = pcall(func)
 end
 
-if not shared.VertexExecuted then
-    shared.VertexExecuted = true
+if not shared.RellHubExecuted then
+    shared.RellHubExecuted = true
     loadScriptFromURL("https://raw.githubusercontent.com/rell-hub/rell-hub/main/modules/" .. game.PlaceId .. ".lua")
 end
